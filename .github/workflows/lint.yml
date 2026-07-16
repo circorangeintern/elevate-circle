@@ -25,8 +25,5 @@ jobs:
       - name: Install Dependencies
         run: bun install
 
-      - name: Run Biome Lint
-        run: bunx biome check .
-
-      - name: Check Formatting
-        run: bunx biome format . --check
+      - name: Run Biome CI Check
+        run: bunx biome ci .

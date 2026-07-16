@@ -5,7 +5,6 @@ on:
     branches:
       - main
       - develop
-
   push:
     branches:
       - main
@@ -38,3 +37,5 @@ jobs:
 
       - name: Run migrations
         run: bun run db:migrate
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
