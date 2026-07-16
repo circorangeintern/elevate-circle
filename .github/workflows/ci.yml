@@ -34,8 +34,3 @@ jobs:
 
       - name: Build Project
         run: bun run build
-
-      - name: Run migrations
-        run: bun run db:migrate
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
