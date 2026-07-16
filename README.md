@@ -35,7 +35,7 @@ index.ts    # DB client (Neon + Drizzle)
 index.ts         # Hono app entry point
 
 ## API Documentation
-See [`../docs/api-contract.md`](../docs/api-contract.md) for full endpoint contracts.
+See [API Contract](../docs/api-contract.md) for full endpoint contracts.
 
 ## Status (Sprint 2)
 - [x] Database schema designed and pushed to Neon
